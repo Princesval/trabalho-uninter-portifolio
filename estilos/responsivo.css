@@ -1,0 +1,39 @@
+@media(max-width: 400px) {
+    .imagem-projeto {
+        min-width: 200px;
+        max-width: 275px;
+        border-radius: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    a.menus-voltar {
+        font-size: 0.6em;
+    }
+
+    main {
+        max-width: 350px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media(max-width: 325px) {
+    .imagem-projeto {
+        min-width: 180px;
+        max-width: 220px;
+        border-radius: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    a.menus-voltar {
+        font-size: 0.6em;
+    }
+
+    main {
+        max-width: 300px;
+    }
+}
+
+/* medias para reponsividade em dispositivos pequenos. Adicionando margem na main para ficar parecido com o design de desktop e diminuição de letras e imagens para adptar a telas pequenas */
