@@ -1,10 +1,10 @@
 @media(max-width: 400px) {
     .imagem-projeto {
-        min-width: 200px;
-        max-width: 275px;
+        margin: auto;
+        display: block;
+        min-width: 180px;
+        max-width: 250px;
         border-radius: 10px;
-        margin-top: 15px;
-        margin-bottom: 15px;
     }
 
     a.menus-voltar {
@@ -16,17 +16,23 @@
         margin-right: 10px;
         margin-left: 10px;
     }
+
+    .conteiner-imagem {
+        display: block;
+        margin: auto;
+    }
 }
 
 @media(max-width: 325px) {
     .imagem-projeto {
         min-width: 180px;
-        max-width: 220px;
+        max-width: 200px;
         border-radius: 10px;
-        margin-top: 15px;
-        margin-bottom: 15px;
     }
-
+    .conteiner-imagem {
+        display: block;
+        margin: auto;
+    }
     a.menus-voltar {
         font-size: 0.6em;
     }
